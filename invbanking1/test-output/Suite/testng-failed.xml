@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="extendReport.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.invbanking.testclasses.TC_addcustomer">
+        <methods>
+          <include name="setup"/>
+          <include name="quit"/>
+          <include name="login"/>
+          <include name="addcustomer"/>
+        </methods>
+      </class> <!-- com.invbanking.testclasses.TC_addcustomer -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="Browser" value="Firefox"/>
+    <classes>
+      <class name="com.invbanking.testclasses.TC_addcustomer">
+        <methods>
+          <include name="setup"/>
+          <include name="quit"/>
+          <include name="login"/>
+          <include name="addcustomer"/>
+        </methods>
+      </class> <!-- com.invbanking.testclasses.TC_addcustomer -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
