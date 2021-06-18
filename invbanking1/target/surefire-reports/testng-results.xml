@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-18T18:20:52Z" name="Suite" finished-at="2021-06-18T18:21:29Z" duration-ms="37709">
+    <groups>
+    </groups>
+    <test started-at="2021-06-18T18:20:52Z" name="ChromeTest" finished-at="2021-06-18T18:21:11Z" duration-ms="18957">
+      <class name="com.invbanking.testclasses.TC_loginpage">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.invbanking.testclasses.TC_loginpage@1205bd62]" started-at="2021-06-18T18:20:52Z" name="setup" finished-at="2021-06-18T18:21:00Z" duration-ms="8316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.invbanking.testclasses.TC_loginpage@1205bd62]" started-at="2021-06-18T18:21:00Z" name="login" finished-at="2021-06-18T18:21:02Z" duration-ms="2527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logintest()[pri:0, instance:com.invbanking.testclasses.TC_loginpage@1205bd62]" started-at="2021-06-18T18:21:02Z" name="logintest" finished-at="2021-06-18T18:21:03Z" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.invbanking.testclasses.TC_loginpage@1205bd62]" started-at="2021-06-18T18:21:03Z" name="logout" finished-at="2021-06-18T18:21:04Z" duration-ms="1682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.invbanking.testclasses.TC_loginpage@1205bd62]" started-at="2021-06-18T18:21:10Z" name="quit" finished-at="2021-06-18T18:21:11Z" duration-ms="788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.invbanking.testclasses.TC_loginpage -->
+      <class name="com.invbanking.testclasses.TC_addcustomer">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.invbanking.testclasses.TC_addcustomer@7ef27d7f]" started-at="2021-06-18T18:21:04Z" name="login" finished-at="2021-06-18T18:21:07Z" duration-ms="2796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addcustomer()[pri:0, instance:com.invbanking.testclasses.TC_addcustomer@7ef27d7f]" started-at="2021-06-18T18:21:07Z" name="addcustomer" finished-at="2021-06-18T18:21:10Z" duration-ms="2778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addcustomer -->
+      </class> <!-- com.invbanking.testclasses.TC_addcustomer -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2021-06-18T18:21:11Z" name="FirefoxTest" finished-at="2021-06-18T18:21:29Z" duration-ms="18721">
+      <class name="com.invbanking.testclasses.TC_loginpage">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.invbanking.testclasses.TC_loginpage@16b2bb0c]" started-at="2021-06-18T18:21:11Z" name="setup" finished-at="2021-06-18T18:21:21Z" duration-ms="10773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.invbanking.testclasses.TC_loginpage@16b2bb0c]" started-at="2021-06-18T18:21:21Z" name="login" finished-at="2021-06-18T18:21:23Z" duration-ms="1667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logintest()[pri:0, instance:com.invbanking.testclasses.TC_loginpage@16b2bb0c]" started-at="2021-06-18T18:21:23Z" name="logintest" finished-at="2021-06-18T18:21:23Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.invbanking.testclasses.TC_loginpage@16b2bb0c]" started-at="2021-06-18T18:21:23Z" name="logout" finished-at="2021-06-18T18:21:24Z" duration-ms="885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.invbanking.testclasses.TC_loginpage@16b2bb0c]" started-at="2021-06-18T18:21:28Z" name="quit" finished-at="2021-06-18T18:21:29Z" duration-ms="1731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.invbanking.testclasses.TC_loginpage -->
+      <class name="com.invbanking.testclasses.TC_addcustomer">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.invbanking.testclasses.TC_addcustomer@327af41b]" started-at="2021-06-18T18:21:24Z" name="login" finished-at="2021-06-18T18:21:26Z" duration-ms="1808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addcustomer()[pri:0, instance:com.invbanking.testclasses.TC_addcustomer@327af41b]" started-at="2021-06-18T18:21:26Z" name="addcustomer" finished-at="2021-06-18T18:21:28Z" duration-ms="1849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addcustomer -->
+      </class> <!-- com.invbanking.testclasses.TC_addcustomer -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>

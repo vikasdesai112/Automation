@@ -1,3 +1,4 @@
 com\invbanking\testclasses\TC_addcustomer.class
 com\invbanking\testclasses\TC_loginpage.class
+extendReport\ExtentTestNGIReporterListener.class
 com\invbanking\testclasses\baseclass.class

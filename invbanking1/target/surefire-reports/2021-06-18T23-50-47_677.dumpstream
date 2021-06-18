@@ -1,0 +1,4 @@
+# Created at 2021-06-18T23:50:49.240
+Boot Manifest-JAR contains absolute paths in classpath 'F:\vikas\Automation\invbanking1\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
